@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+</head>
+<body>
+
+    <main id="container">
+
+        <div class="card"></div>
+
+        <form id="registro__cartao">
+
+            <div id="registro__cabecalho">
+                <span id="nomeCartao">[Marca cartão js]</span>
+                <span id="nivelCartao">Primary</span>
+            </div>
+            
+            <div id="numero__cartao">
+                <label for="numerocartao">Card number</label>
+                <input type="tel" id="input__numero__cartao" maxlength="19" required>
+            </div>
+
+            <div id="nome__cartao">
+                <label for="nomecartao">Name on card</label>
+                <input type="text" id="input__nome__cartao" required>
+            </div>
+
+            <div>
+                <label for="mesexpiracao">Expiration</label>
+            </div>
+
+            <div id="expiracao__cartao">
+                <input type="tel" class="input__expiracao" placeholder="Mês de expiração" required>
+                <input type="tel" class="input__expiracao" placeholder="Ano de expiração" required>
+            </div>
+            
+            <div id="ccv__cartao">
+                <label for="ccvcodigo">CVV</label>
+                <input type="tel" id="input__ccv" maxlength="4" required>
+            </div>
+
+            <div id="registro__botoes">
+                <input type="button" value="Cancel" id="botaoCancelar">
+                <input type="button" value="Save" id="botaoSalvar">
+            </div>
+
+        </form>
+
+    </main>
+
+</body>
+
+</html>
